@@ -38,57 +38,37 @@ npm start
 Navigate to http://localhost:3000 in your browser.
 
 
-Usage
-Signup
+
+## Signup
 Navigate to the Signup page.
 Enter a valid email address and password.
 Submit the form to create a new account.
-Login
+## Login
 Navigate to the Login page.
 Enter your registered email address and password.
 Submit the form to access the app.
 Authentication Flow
 Upon successful login, the user receives a token (if using a backend) and is redirected to the main dashboard.
 Unauthenticated users trying to access protected routes will be redirected to the login page.
-API Endpoints (Optional)
+## API Endpoints (Optional)
 If you are using a backend server, ensure it supports the following endpoints:
 
 POST /api/auth/signup: For user registration.
 POST /api/auth/login: For user authentication.
-Environment Variables
+## Environment Variables
 Create a .env file in the root directory and include the following variables:
 
-plaintext
-Copier le code
+
 REACT_APP_API_BASE_URL=http://localhost:5000/api
-Screenshots
+## Screenshots
 home page
 
-sign in sign up 
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-Create a new branch:
-bash
-Copier le code
-git checkout -b feature-name
-Make your changes and commit them:
-bash
-Copier le code
-git commit -m 'Add feature'
-Push to the branch:
-bash
-Copier le code
-git push origin feature-name
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
-For any questions or suggestions, feel free to contact:
-
-Email: your-email@example.com
-GitHub: yourusername
-go
-Copier le code
+sign in
+sign up 
+## Contributeurs
+Salma Daigham 
+Tahri Imane
+Abid Hanane 
+Zinaoui Zakaria
+Ziad Ousoul
+Elbellarj Hamza
